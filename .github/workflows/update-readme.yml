@@ -2,7 +2,7 @@ name: Update Readme
 
 on:
   schedule:
-    - cron: '0 0 * * *' # Установите расписание, например, ежедневно в полночь
+    - cron: '* * * * *' # каждую минуту
 
 jobs:
   update-readme:
