@@ -1,0 +1,24 @@
+name: Update Readme
+
+on:
+  schedule:
+    - cron: '0 0 * * *' # Установите расписание, например, ежедневно в полночь
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+      
+    - name: Setup Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: '14'
+
+    - name: Install dependencies
+      run: npm install
+
+    - name: Run script
+      run: node getTopProjects.js
