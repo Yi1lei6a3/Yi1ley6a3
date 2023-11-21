@@ -1,0 +1,22 @@
+{
+  "name": "yi1ley6a3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yi1lei6a3/Yi1ley6a3.git"
+  },
+  "author": "Ilya Dubinin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Yi1lei6a3/Yi1ley6a3/issues"
+  },
+  "homepage": "https://github.com/Yi1lei6a3/Yi1ley6a3#readme",
+  "dependencies": {
+    "mustache": "^4.2.0"
+  }
+}
